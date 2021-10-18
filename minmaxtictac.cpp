@@ -95,7 +95,7 @@ class game
         cin>>ply;
         while (true)
         {
-            cout << "Which symbol (X or O, X will play first)? ";
+            cout << "Which symbol (X or O, X will play first) what you want to choose? ";
             cin >> player;
             if (player == 'X' || player == 'O')
             {
@@ -135,7 +135,7 @@ class game
             print();
             if (win())
             {
-                cout << "Computer wins!\n";
+                cout << "Computer won!\n";
                 return;
             }
             else if (tie())
